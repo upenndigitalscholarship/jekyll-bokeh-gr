@@ -12,11 +12,13 @@ principal_investigator:
  - name: James F. English
    title: "Professor, English"
 
-project_developer: 
+principal_developer:
  - name: Scott Enderle
    title: "DH Specialist Librarian, Penn Libraries"
  - name: Rahul Dhakecha
    title: "Masters Student, CIS"
+
+project_developer: 
  - name: Tianli Han
    title: "Masters Student, CIS"
  - name: Sharvan Shah
