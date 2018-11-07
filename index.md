@@ -1,7 +1,7 @@
 --- 
 layout: vis
 display_site_title: true
-vis_include: goodreads_genre_nokids_anonymous.html
+vis_include: vis/goodreads_genre_nokids_anonymous_tsne.html
 ---
 
 This is a visualization of ~1750 of the most active users on the Goodreads social

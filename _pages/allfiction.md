@@ -3,9 +3,9 @@ layout: vis
 title: All Fiction 
 display_site_title: true
 display_page_title: true
-order: 3 
+order: 2
 permalink: /allfiction/
-vis_include: goodreads_genre_anonymous.html
+vis_include: vis/goodreads_genre_anonymous_tsne.html
 ---
 
 This version of our t-SNE projection includes the books that are most often

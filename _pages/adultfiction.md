@@ -3,9 +3,9 @@ layout: vis
 title: Adult Fiction
 display_site_title: true
 display_page_title: true
-order: 2
+order: 1
 permalink: /adultfiction/
-vis_include: goodreads_genre_nokids_anonymous.html
+vis_include: vis/goodreads_genre_nokids_anonymous_tsne.html
 ---
 
 This is a visualization of ~1750 of the most active users on the Goodreads social
