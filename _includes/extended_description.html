@@ -9,9 +9,10 @@
           <li>
               <strong>Sponsor{% if site.data.project.project_sponsor.size > 1 %}s{% endif %}</strong>:
               {% for ps in site.data.project.project_sponsor %}
-                {{ ps.name }}
                 {% if forloop.last == false %}
-                  and
+                    {{ ps.name }},
+                {% else %}
+                    and {{ ps.name }}
                 {% endif %}
               {% endfor %}
           </li>
