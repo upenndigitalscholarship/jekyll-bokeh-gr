@@ -1,9 +1,9 @@
 ---
 layout: vis
-title: Adult Fiction (Spectral Embedding)
+title: Adult (Spectral Embedding)
 display_site_title: true
 display_page_title: true
-order: 8
+order: 9
 permalink: /adultfictionspec/
 vis_include: vis/goodreads_genre_nokids_anonymous_spec.html
 ---

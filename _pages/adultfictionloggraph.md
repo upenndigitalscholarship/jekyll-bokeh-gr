@@ -1,6 +1,6 @@
 ---
 layout: vis
-title: Adult Fiction (Log-Network)
+title: Adult (Log-Net)
 display_site_title: true
 display_page_title: true
 order: 4

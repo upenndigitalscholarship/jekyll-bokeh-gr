@@ -1,6 +1,6 @@
 ---
 layout: vis
-title: Adult Fiction (Multidimensional Scaling)
+title: Adult (Multidimensional Scaling)
 display_site_title: true
 display_page_title: true
 order: 7
