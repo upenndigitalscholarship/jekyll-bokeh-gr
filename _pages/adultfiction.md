@@ -9,34 +9,36 @@ vis_include: vis/goodreads_genre_nokids_anonymous_tsne.html
 ---
 
 This is a visualization of ~1750 of the most active users on the Goodreads social
-reading site.  They were randomly selected from the tens of thousands of users who
-have published at least 150 reviews on the site.   Each reader is represented as
+reading site.  They were randomly selected in 2017 from all users who
+had then published at least 150 reviews on the site.   Each reader is represented as
 a point, color-coded to show the primary genre of their reading, excluding
 non-fiction and fiction for children and young people. Our reason for excluding those
-genres is that in many cases they represent the preferendes of a user's child rather 
-than those of the user herself. A visualization that
-includes YA, children’s lit, and graphic fiction is [here](/allfiction/). 
+genres is that in many cases they represent the preferences of a user's child rather 
+than those of the user herself. A visualization that includes YA, children’s lit, and 
+graphic fiction is [here](/allfiction/). 
 
-A book's genre was assigned based on how users tend to "shelve" it in their Goodreads
-collections.  A book that is shelved as "historical" by 10% of its readers, "literary" by
-5% of its readers, and "mystery" by 75% of its readers would be assigned to the
-Mystery/Crime/Detective genre (color = grey).
+A book was assigned to one of our genre categories based on how users tend to "shelve" 
+it in their Goodreads collections.  A book that is shelved as "historical fiction" by 
+30% of its readers, "literary fiction" by 10% of its readers, "mystery" by 55% of its 
+readers, and various other genres by 5% of its readers would be assigned to our 
+Mystery/Crime/Detective genre category (color = grey).
 
 We used an algorithm called t-SNE and a presentation tool called Bokeh to visualize
 readers’ taste profiles as proximity or distance from one another.  Mousing over
 a point reveals the breakdown of that reader’s fiction reading by genre.  Points
-that are near to each other represent readers who like a similiar genre-mix of books;
-points that are distant represent readers whose genre preferences diverge.  Points 
-that are near to differently colored points correspond to readers who are relatively
-“omnivorous” in their consumption of fiction.  Points surrounded exclusively by
-same-color points correspond to “univores,” readers who do not stray far from
-their one favored genre. The fact that each genre appears as fairly well-defined
-color-zone -- a green (Romance) neighborhood at one side of the graph and a brown
-(Literary Fiction) neighborhood at the other side -- suggests a predominant pattern
-of univorousness.   This is by no means the whole story; our published articles
-develop a more complex interpretation of what is figured here.  Other visualizations, 
-listed in the menu above, measure the similarity of readers' taste profiles by other 
-metrics, e.g. taking into account the specific books a user has read rather than 
-merely the genres of those books.  But this map is a good starting point.
+that are near to each other represent readers who like a similiar genre-mix of books,
+e.g. mostly historical fiction with some science fiction; points that are far apart 
+represent readers whose genre preferences diverge.  Points that are near to differently 
+colored points correspond to readers who are relatively “omnivorous” in their 
+consumption of fiction.  Points surrounded exclusively by same-color points correspond 
+to “univores,” readers who do not stray far from their one favored genre. The fact that 
+each genre appears as fairly well-defined color-zone -- a green (Romance) neighborhood 
+at one side of the graph and a brown (Literary Fiction) neighborhood at the other side 
+-- suggests a predominant pattern of univorousness.   This is by no means the whole 
+story; our published articles develop a more complex interpretation of what is figured 
+here.  Other interactive visualizations, which you can explore via the menu above, 
+measure the similarity of readers' taste profiles by other  metrics, e.g. taking into 
+account the specific books a user has read rather than merely the genres of those books.  
+But this map is a good starting point.
 
 Where would you place yourself on this map?
