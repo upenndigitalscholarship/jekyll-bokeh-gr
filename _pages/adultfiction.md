@@ -1,6 +1,6 @@
 ---
 layout: vis
-title: Adult Fiction
+title: Readers Mapped by Genre-Mix
 display_site_title: true
 display_page_title: true
 order: 1
@@ -8,7 +8,7 @@ permalink: /adultfiction/
 vis_include: vis/goodreads_genre_nokids_anonymous_tsne.html
 ---
 
-This is a visualization of ~1750 of the most active users on the Goodreads social
+This is an interactive Bokeh visualization of ~1750 of the most active users on the Goodreads social
 reading site.  They were randomly selected in 2017 from all users who
 had then published at least 150 reviews on the site.   Each reader is represented as
 a point, color-coded to show the primary genre of their reading, excluding
@@ -24,11 +24,10 @@ readers, and various other genres by 5% of its readers would be assigned to our
 Mystery/Crime/Detective genre category (color = grey).
 
 We used an algorithm called t-SNE and a presentation tool called Bokeh to visualize
-readers’ taste profiles as proximity or distance from one another.  Mousing over
+readers’ different taste profiles as standing at various Euclidean distances from one another.  Mousing over
 a point reveals the breakdown of that reader’s fiction reading by genre.  Points
 that are near to each other represent readers who like a similiar genre-mix of books,
-e.g. mostly historical fiction with some science fiction; points that are far apart 
-represent readers whose genre preferences diverge.  Points that are near to differently 
+e.g. thye both might read mainly historical fiction with occasional works of science fiction. Points that are near to differently 
 colored points correspond to readers who are relatively “omnivorous” in their 
 consumption of fiction.  Points surrounded exclusively by same-color points correspond 
 to “univores,” readers who do not stray far from their one favored genre. The fact that 
