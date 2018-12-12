@@ -5,7 +5,7 @@ project_subtitle: "Literary Reception Studies at Scale"
 
 project_sponsor: 
  - name: "Price Lab for Digital Humanities"
- - name: "World Well-Being Project"
+ - name: "Humanities and Human Flourishing Project"
  - name: "Penn Libraries"
 
 principal_investigator: 
@@ -37,6 +37,8 @@ project_consultant:
    title: "Positive Psychology Center"
  - name: Lyle Unger
    title: "Professor, CIS and Psychology"
+ - name: Louis Tay
+   title: "Professor, Psychology, Purdue University"
 
 maintaining_institution:
  - name: "The Price Lab for Digital Humanities"
