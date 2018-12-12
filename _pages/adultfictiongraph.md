@@ -6,6 +6,7 @@ display_page_title: true
 order: 3
 permalink: /adultfictiongraph/
 vis_include: vis/goodreads_genre_nokids_anonymous_tsne_graph.html
+hidden: true
 ---
 
 [This is the Network t-SNE visualization. 
