@@ -1,6 +1,6 @@
 ---
 layout: vis
-title: (Reader Network)
+title: Reader Network
 display_site_title: true
 display_page_title: true
 order: 3
