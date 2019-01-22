@@ -4,7 +4,7 @@ title: Reader Network
 display_site_title: true
 display_page_title: true
 order: 3
-permalink: /adultfictiongraph/
+permalink: /adultfictioncomparegraph/
 vis_include: vis/goodreads_genre_nokids_anonymous_tsne_graph.html
 ---
 
