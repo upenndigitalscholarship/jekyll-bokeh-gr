@@ -32,8 +32,6 @@ plugins:
 include:
   - _pages
 
-theme-color: light
-
 sass-dir: _sass
 
 # Exclude from processing.
