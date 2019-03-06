@@ -16,8 +16,9 @@ $h4-size: ($typeunit * 4) !default;
 $h5-size: ($typeunit * 3) !default;
 $h6-size: ($typeunit * 2) !default;
 
-$body-font-size: $h5-size;
-$prose-font-size: $h4-size;
+$body-font-size: $h4-size;
+$prose-font-size: $h3-size;
+
 
 // Container width
 $container-width: 52em;
