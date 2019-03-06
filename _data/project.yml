@@ -5,18 +5,20 @@ project_subtitle: "Literary Reception Studies at Scale"
 
 project_sponsor: 
  - name: "Price Lab for Digital Humanities"
- - name: "World Well-Being Project"
+ - name: "Humanities and Human Flourishing Project"
  - name: "Penn Libraries"
 
 principal_investigator: 
  - name: James F. English
    title: "Professor, English"
 
-project_developer: 
+principal_developer:
  - name: Scott Enderle
    title: "DH Specialist Librarian, Penn Libraries"
  - name: Rahul Dhakecha
    title: "Masters Student, CIS"
+
+project_developer: 
  - name: Tianli Han
    title: "Masters Student, CIS"
  - name: Sharvan Shah
@@ -35,6 +37,8 @@ project_consultant:
    title: "Positive Psychology Center"
  - name: Lyle Unger
    title: "Professor, CIS and Psychology"
+ - name: Louis Tay
+   title: "Professor, Psychology, Purdue University"
 
 maintaining_institution:
  - name: "The Price Lab for Digital Humanities"
