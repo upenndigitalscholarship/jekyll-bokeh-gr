@@ -4,7 +4,7 @@ title: About
 subtitle: "Mining Goodreads: Literary Reception Studies at Scale"
 display_page_title: true
 permalink: /about/
-order: 4
+order: 11
 
 ---
 
@@ -23,8 +23,9 @@ homogeneous subjects.  The massive quantity of data about all sorts of readers
 and reading contained on the Goodreads site is potentially transformative of the
 field.
 
-The Mining Goodreads project at Penn, which focuses on readers of contemporary
-fiction, has built a database comprising nearly three million Goodreads reviews,
+The Mining Goodreads project at Penn, cosponsored by the Humanities and Human 
+Flourishing project and the Price Lab for Digital Humanities, focuses on readers of contemporary
+fiction.  We have built a database comprising nearly three million Goodreads reviews,
 together with corresponding ratings (on a 5-star scale), and metadata on the
 books, authors, and users themselves. We have gathered all the reviews of 500
 bestsellers and of 1300 novels that made the shortlists of major awards since

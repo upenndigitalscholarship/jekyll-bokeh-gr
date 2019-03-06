@@ -4,8 +4,8 @@ title: Reader Network
 display_site_title: true
 display_page_title: true
 order: 3
-permalink: /adultfictiongraph/
-vis_include: vis/goodreads_genre_nokids_anonymous_tsne_graph.html
+permalink: /adultfictioncomparegraph/
+vis_include: vis/nokids_anonymous_tsne_compare_tsne_log_graph.html
 ---
 
 This Bokeh visualization is based on a different use of t-SNE than our basic map of readers and genre preferences.  Here, the similarity or difference between two readers' tastes is calculated according to the specific books they have read rather than just the genres of the books.  In fact, our genre categories are left out of the algorithm entirely. The code here generates a distance matrix by treating all the books and all the users as part of a bimodal network -- that is, a network with two kinds of nodes that only connect to nodes of the other type. It then "imagines" a process: suppose you talk to a random user and ask for a recommendation. They randomly pick one of the books they've reviewed. Then you talk to other random users until you find one who has also reviewed that book, and ask them for a new recommendation ... ad infinitum. The probability of going from a given user to another in this scenario is the "distance" between them (actually, it's 1 - p instead of p). 
