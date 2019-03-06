@@ -19,7 +19,7 @@ email: scott.enderle@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
     Readers and Genres of Fiction in Goodreads
 baseurl: "/jekyll-bokeh-gr" # the subpath of your site, e.g. /blog
-url: "https://senderle.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://upenndigitalscholarship.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: scottenderle
 github_username:  senderle
 
@@ -31,6 +31,8 @@ plugins:
 # Render everything in _pages
 include:
   - _pages
+
+sass-dir: _sass
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
