@@ -1,9 +1,9 @@
 ---
 layout: vis
 title: Adult (Spectral Net)
+hidden: true
 display_site_title: true
 display_page_title: true
-hidden: true
 order: 10
 permalink: /adultfictionloggraphspec/
 vis_include: vis/goodreads_genre_nokids_anonymous_spec_log_graph.html
