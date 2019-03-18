@@ -1,6 +1,7 @@
 ---
 layout: vis
 title: Adult (Spectral Net)
+hidden: true
 display_site_title: true
 display_page_title: true
 order: 10
