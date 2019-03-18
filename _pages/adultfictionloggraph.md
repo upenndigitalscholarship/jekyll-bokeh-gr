@@ -3,6 +3,7 @@ layout: vis
 title: Reader Network (Log Transformed)
 display_site_title: true
 display_page_title: true
+hidden: true
 order: 4
 permalink: /adultfictionloggraph/
 vis_include: vis/goodreads_genre_nokids_anonymous_tsne_log_graph.html
