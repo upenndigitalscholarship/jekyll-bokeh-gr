@@ -24,16 +24,17 @@ and reading contained on the Goodreads site is potentially transformative of the
 field.
 
 The Mining Goodreads project at Penn, cosponsored by the Humanities and Human 
-Flourishing project and the Price Lab for Digital Humanities, focuses on readers of contemporary
-fiction.  We have built a database comprising nearly three million Goodreads reviews,
-together with corresponding ratings (on a 5-star scale), and metadata on the
-books, authors, and users themselves. We have gathered all the reviews of 500
-bestsellers and of 1300 novels that made the shortlists of major awards since
-1960, plus a substantial cross-section of the reviews of curated top-200 lists
+Flourishing project and the Price Lab for Digital Humanities, focuses on readers 
+of contemporary fiction.  We have built a database comprising nearly three 
+million Goodreads reviews, together with corresponding ratings (on a 5-star scale), 
+and metadata on the books, authors, and users themselves. We have gathered all the 
+reviews of 500 bestsellers and of 1300 novels that made the shortlists of major awards 
+since 1960, plus a substantial cross-section of the reviews of curated top-200 lists
 of mystery/crime/detective fiction, science fiction, and chick lit/modern
-romance novels.  In addition, we have compiled all the reviews written by a
-random set of 1,750 highly active Goodreads users, who between them have read
-more than 300,000 unique works of fiction across the full range of popular and
+romance novels.  In addition, we have compiled all the reviews written by a random 
+set of 1,672 highly active Goodreads users (sampled from all users who had posted 
+at least 150 reviews as of January 2018.  Between them these readers have read
+more than 200,000 unique works of fiction across the full range of popular and
 not-so-popular genres. We have refined and structured this data and developed
 quite a lot of code, most of which may be shared with other researchers to help
 them pursue their own questions about contemporary readers, tastes, and values.

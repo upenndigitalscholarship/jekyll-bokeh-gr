@@ -10,8 +10,9 @@ layout: default
     {% include extended_description.html %}
 
     {{ content }}
-
-    {% include bokeh_heading.html %}
-    {% include {{ page.vis_include }} %}
+    {% if page.vis_include %}
+      {% include bokeh_heading.html %}
+      {% include {{ page.vis_include }} %}
+    {% endif %}
   </div>
 </article>
